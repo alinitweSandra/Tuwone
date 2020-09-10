@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_publicInterest"
+            android:icon="@drawable/child"
+            android:title="@string/public_interest_litigation" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_legalAid"
+            android:icon="@drawable/leg"
+            android:title="@string/legal_aid" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+        android:id="@+id/nav_childProtection"
+        android:icon="@drawable/child"
+        android:title="@string/child_protection_program" />
+        <item
+            android:id="@+id/nav_sensitisation"
+            android:icon="@drawable/sensitisation"
+            android:title="@string/sensitisation" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/r1"
+            android:title="@string/my_profile" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/r1"
+            android:title="@string/logout" />
+
     </group>
 </menu>

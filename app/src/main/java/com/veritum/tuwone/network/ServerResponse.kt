@@ -5,5 +5,4 @@ class ServerResponse {
     var message : String? = null
     var data : String? = null
 
-
 }

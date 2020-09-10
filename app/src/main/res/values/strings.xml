@@ -10,4 +10,11 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="public_interest_litigation">Public Interest Litigation</string>
+    <string name="legal_aid">Legal Aid</string>
+    <string name="child_protection_program">Child Protection Program</string>
+    <string name="sensitisation">Sensitisation</string>
+    <string name="people">People</string>
+    <string name="my_profile">My Profile</string>
+    <string name="logout">Log Out</string>
 </resources>

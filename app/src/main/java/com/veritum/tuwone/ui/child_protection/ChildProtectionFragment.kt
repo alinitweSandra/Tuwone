@@ -1,4 +1,4 @@
-package com.veritum.tuwone.ui.home
+package com.veritum.tuwone.ui.child_protection
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,22 +10,18 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.veritum.tuwone.R
 
-class HomeFragment : Fragment() {
-
-    private lateinit var homeViewModel: HomeViewModel
+class ChildProtectionFragment : Fragment() {
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_home, container, false)
-        val textView: TextView = root.findViewById(R.id.text_home)
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+
+        val root = inflater.inflate(R.layout.fragment_child_protection, container, false)
+
         return root
     }
+
+
 }

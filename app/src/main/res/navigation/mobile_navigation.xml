@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_publicInterest">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.veritum.tuwone.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_publicInterest"
+        android:name="com.veritum.tuwone.ui.public_interest.PublicInterestFragment"
+        android:label="@string/public_interest_litigation"
+        tools:layout="@layout/fragment_public_interest" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.veritum.tuwone.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_legalAid"
+        android:name="com.veritum.tuwone.ui.legal_aid.LegalAidFragment"
+        android:label="@string/legal_aid"
+        tools:layout="@layout/fragment_legal_aid" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.veritum.tuwone.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_childProtection"
+        android:name="com.veritum.tuwone.ui.child_protection.ChildProtectionFragment"
+        android:label="@string/child_protection_program"
+        tools:layout="@layout/fragment_child_protection" />
+
+    <fragment
+        android:id="@+id/nav_sensitisation"
+        android:name="com.veritum.tuwone.ui.sensitisation.SensitisationFragment"
+        android:label="@string/sensitisation"
+        tools:layout="@layout/fragment_sensitisation" />
+
+    <fragment
+        android:id="@+id/nav_people"
+        android:name="com.veritum.tuwone.ui.person.PersonFragment"
+        android:label="@string/people"
+        tools:layout="@layout/fragment_person" />
 </navigation>
